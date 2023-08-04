@@ -8,6 +8,7 @@ Desenvolva, utilizando o Google Blockly, um programa que utiliza o nome de um al
 
 No sistema, todos os valores devem estar armazenados em variáveis.
 
+![image](https://github.com/lizieaz/joyclass_FAP/assets/139813498/cc58709f-9ca9-40f1-91ce-a0d6049aa8e0)
 
 ### Resposta
 
