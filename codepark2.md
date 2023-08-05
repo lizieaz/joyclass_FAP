@@ -18,7 +18,7 @@ E: Veículos com quatro rodas ou mais e com mais de 6000 kg.
 
 var z, rodas, peso, pessoas;
 
-
+````js
 z = 1;
 while (!(z == 0)) {
   rodas = window.prompt('Quantidade de Rodas: ');
@@ -37,3 +37,4 @@ while (!(z == 0)) {
   }
   z = Number(window.prompt('Para continuar digite 1, para encerrar digite 0: '));
 }
+````
