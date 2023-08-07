@@ -5,3 +5,16 @@ Ele deverá mostrar a mensagem “iniciando contagem regressiva”, os segundos 
 
 ## Resposta
 
+![image](https://github.com/lizieaz/joyclass_FAP/assets/139813498/72cb6e9c-fe20-4394-832e-b1df5828b799)
+
+````js
+var i;
+
+window.alert('Iniciando contagem regressiva');
+i = 10;
+for (var count = 0; count < 10; count++) {
+  window.alert('Contagem regressiva:' + String(i));
+  i = i - 1;
+}
+window.alert('BUM!');
+````
