@@ -11,6 +11,51 @@ O código deve perguntar se deseja finalizar a votação depois do voto. Caso o 
 Quando a votação for finalizada, o código deverá mostrar o vencedor, aquele com o maior número de votos e, também, a quantidade de votos de cada candidato, os brancos e nulos. 
 
 ## Resposta
+
+< em construção >
+
+var
+voto, candidato_X, candidato_Y, candidato_Z, brancos: inteiro
+
+inicio
+
+escreval("Votação iniciada")
+escreval("Candidatos disponíveis:")
+escreval("Candidato X: Número 889")
+escreval("Candidato Y: Número 447")
+escreval("Candidato Z: Número 515")
+
+z=1
+
+enquanto z==1 faca
+    escreval("Registre seu voto:")
+    leia(voto)
+
+    se voto==889 entao
+        canditado_X = candidato_X + 1
+        senao se voto == 447 entao
+        candidato_Y = candidato_Y + 1
+        senao se voto == 515 entao
+        candidato_Z = candidato_Z + 1
+        senao
+        brancos = brancos + 1
+    fimse
+
+    escreval("Para encerrar a votação, digite 0")
+    leia(z)
+fimenquanto
+
+escreval("Resultado da votação")
+se candidato_X > canditato_Y entao
+vencedor = candidato_X
+senao se candidato_Z > candidato_X entao
+vencedor...
+
+
+
+
+
+## Resposta
 ````js
 let votoCandidato = {
     candidato_X: 889,
